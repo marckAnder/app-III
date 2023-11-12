@@ -1,0 +1,148 @@
+body{
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_list{
+    text-align: center;
+    width: 55vh;
+    height: 100vh;
+    background: bisque;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 6px 30px #000;
+    border-radius: 10px;
+}
+.bus{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    background-color: beige;
+    align-items: center;
+    box-shadow: 0px 1px 30px #000;
+    border-radius: 10px;
+}
+.list{
+    max-width: 100%;
+
+    max-height:85% ;
+    padding: 15px;
+}
+#Buscador {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 75%;
+    position: relative;
+    height: 30%;
+    border-radius: 10px;
+    left: 25px;
+}
+
+#List {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#List li {
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+/* el bloque XD.*/
+
+.main_block{
+    background:#ff8c006b;
+    box-shadow: 0px 6px 30px #000;
+    width: 95vh;
+    height: 55vh;
+    position: absolute;
+    right: 25vh;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.img{
+    width: 40vh;
+    height: 40vh;
+    background-color: white;
+    border-radius: 50%;
+    position: relative; 
+}
+.main_info{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main_timp{
+    display: flex;
+    flex-direction: column;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+}
+.botom{
+    height: 54px;
+    width: 54px;
+    display: flex;
+    padding: 0px 0px 0px 80px;
+    top: 30px;
+    cursor: pointer;
+    position: relative;
+}
+.botom i {
+    font-size: 40px;
+    background: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.progress-area{
+    height: 6px;
+    width: 100%;
+    border-radius: 50px;
+    background: #f0f0f0;
+    cursor: pointer;
+  }
+  .progress-area .progress-bar{
+    height: inherit;
+    width: 0%;
+    position: relative;
+    border-radius: inherit;
+    background: black;
+  }
+.title{
+    font-size: 30px;
+}
+.play_level{
+    position: relative;
+    width: 120%;
+    right: 30px;
+}
+.play_audio{
+    visibility: hidden;
+}
+
+.song-timer{
+    display: flex;
+    justify-content: space-between;
+}
+.song-timer span{
+    font-size: 17px;
+    color: var(--lightblack);
+  }
